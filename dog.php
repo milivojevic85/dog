@@ -14,7 +14,7 @@ class Dog
 	private $dog_name = "no name";
 
 	function get_properties() {
-		return "$this->dog_weight, $this->dog_breed, $this->dog_color.";
+		return "$this->dog_weight, $this->dog_breed, $this->dog_color";
 	}
 }
 
