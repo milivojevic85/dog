@@ -14,7 +14,7 @@ print $name_error == 'TRUE' ? 'Name update successful<br>' : 'Name update not su
 print $breed_error == 'TRUE' ? 'Breed update successful<br>' : 'Breed update not successful<br>';
 print $color_error == 'TRUE' ? 'Color update successful<br>' : 'Color update not successful<br>';
 print $weight_error == 'TRUE' ? 'Weight update successful<br>' : 'Weight update not successful<br>';
-//---------------------------------Get Properties----------------------------------
+//---------------------------------Set Properties----------------------------------
 $dog_error_message = $lab->set_dog_name('Fred');
 print $dog_error_message == TRUE ? 'Name update successful<br>' : 'Name update not successful<br>';
 $dog_error_message = $lab->set_dog_weight(50);
