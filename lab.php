@@ -8,7 +8,8 @@
 <?php 
 require_once('dog.php');
 $lab = new Dog;
-$lab->display_properties();
+$dog_properties = $lab->get_properties();
+print $dog_properties; // 0, no breed, no color.
 ?>
 </body>
 </html>
