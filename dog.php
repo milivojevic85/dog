@@ -35,6 +35,18 @@ class Dog
 		return $error_message;
 	}
 	//---------------------------------Get Methods----------------------------------
+	function get_dog_name() {
+		return $this->dog_name;
+	}
+	function get_dog_weight() {
+		return $this->dog_weight;
+	}
+	function get_dog_breed() {
+		return $this->dog_breed;
+	}
+	function get_dog_color() {
+		return $this->dog_color;
+	}
 	function get_properties() {
 		return "$this->dog_weight, $this->dog_breed, $this->dog_color";
 	}

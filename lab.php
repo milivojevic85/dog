@@ -18,6 +18,10 @@ print $dog_error_message == TRUE ? 'Breed update successful<br>' : 'Breed update
 $dog_error_message = $lab->set_dog_color('Yellow');
 print $dog_error_message == TRUE ? 'Color update successful<br>' : 'Color update not successful<br>';
 //---------------------------------Get Properties----------------------------------
+print $lab->get_dog_name()."<br>";
+print $lab->get_dog_weight()."<br>";
+print $lab->get_dog_breed()."<br>";
+print $lab->get_dog_color()."<br>";
 $dog_properties = $lab->get_properties();
 list($dog_weight, $dog_breed, $dog_color) = explode(',', $dog_properties);
 print "Dog weight is $dog_weight. Dog bread is $dog_breed. Dog color is $dog_color.";
@@ -30,5 +34,9 @@ Name update successful
 Weight update successful
 Breed update successful
 Color update successful
+Fred
+50
+Lab
+Yellow
 Dog weight is 50. Dog bread is Lab. Dog color is Yellow.
 -->
