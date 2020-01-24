@@ -37,6 +37,10 @@ print "Dog weight is $dog_weight. Dog bread is $dog_breed. Dog color is $dog_col
 
 <!-- output:
 Name update successful
+Breed update successful
+Color update successful
+Weight update successful
+Name update successful
 Weight update successful
 Breed update successful
 Color update successful
